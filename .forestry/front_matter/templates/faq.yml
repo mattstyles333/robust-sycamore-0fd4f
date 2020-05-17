@@ -20,9 +20,6 @@ fields:
   label: Questions
   description: List of questions to show on the FAQ page
   fields:
-  - type: text
-    name: question
-    label: Question
   - type: textarea
     name: answer
     label: Answer
@@ -30,6 +27,9 @@ fields:
       wysiwyg: true
       schema:
         format: markdown
+  - type: text
+    name: question
+    label: Question
   config:
     labelField: question
 - type: text
